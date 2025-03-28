@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  
+  body {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20240608/pngtree-soft-blue-pink-and-purple-waves-form-abstract-light-background-image_15857749.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  
+  .container {
+    position: relative;
+    z-index: 2; /* Ensures form appears above the background image */
+    margin-top: 20px;
+  }
